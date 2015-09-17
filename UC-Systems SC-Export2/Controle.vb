@@ -79,15 +79,11 @@ Public Class Controle
         '' Mocht google chrome niet aanwezig zijn word er IE gebruikt.
         If DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(5).Value.ToString = "* KLANT NOG TOEWIJZEN *" Then
             If e.ColumnIndex = 0 Then
-                Dim fullpath As String = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-                Dim fullpath2 As String = "C:\Program Files (x86)\Google\Chrome\Application‏\chrome.exe"
+               Dim fullpath As String = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
                 If System.IO.File.Exists(fullpath) Then
-
-                    Process.Start("C:\Program Files\Google\Chrome\Application\chrome.exe", "http://service.ucsystems.net/WorkOrder.do?woMode=viewWO&woID=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(2).Value.ToString()) & "&" & "")
-                ElseIf System.IO.File.Exists(fullpath2) Then
-                    Process.Start(fullpath2, "http://service.ucsystems.net/WorkOrder.do?woMode=viewWO&woID=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(2).Value.ToString()) & "&" & "")
+                    Process.Start("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe", "http://service.ucsystems.net/WorkOrder.do?woMode=viewWO&woID=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(13).Value.ToString()) & "&" & "")
                 Else
-                    Dim url As String = "http://service.ucsystems.net/WorkOrder.do?woMode=viewWO&woID=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(2).Value.ToString) & "&" & ""
+                    Dim url As String = "http://service.ucsystems.net/WorkOrder.do?woMode=viewWO&woID=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(13).Value.ToString) & ""
                     ie = CreateObject("INTERNETEXPLORER.APPLICATION")
                     ie.Visible = True
                     ie.NAVIGATE(url)
@@ -95,22 +91,18 @@ Public Class Controle
             End If
         Else
             If e.ColumnIndex = 0 Then
-                Dim fullpath As String = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-                Dim fullpath2 As String = "C:\Program Files (x86)\Google\Chrome\Application‏\chrome.exe"
+                 Dim fullpath As String = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
                 If System.IO.File.Exists(fullpath) Then
-
-                    Process.Start(fullpath, "http://service.ucsystems.net/CustomerDef.do?mode=view&id=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(13).Value.ToString()) & "&" & "")
-                ElseIf System.IO.File.Exists(fullpath2) Then
-                    Process.Start(fullpath2, "http://service.ucsystems.net/CustomerDef.do?mode=view&id=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(13).Value.ToString()) & "&" & "")
+                    Process.Start("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe", "http://service.ucsystems.net/WorkOrder.do?woMode=viewWO&woID=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(13).Value.ToString()) & "&" & "")
                 Else
-                    Dim url As String = "http://service.ucsystems.net/CustomerDef.do?mode=view&id=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(13).Value.ToString) & ""
+                    Dim url As String = "http://service.ucsystems.net/WorkOrder.do?woMode=viewWO&woID=" & Trim(DataGridView1.Rows(DataGridView1.SelectedRows(0).Index).Cells(13).Value.ToString) & ""
                     ie = CreateObject("INTERNETEXPLORER.APPLICATION")
                     ie.Visible = True
                     ie.NAVIGATE(url)
                 End If
             End If
         End If
-           
+
 
 
     End Sub
