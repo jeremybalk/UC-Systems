@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UC-Systems Tool.exe" size="1217536">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UC-Systems Tool.exe" size="1223680">
       <assemblyIdentity name="UC-Systems Tool" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>e2/2s2q779dw+DDdmBTxt7cmyrCo4RY3oeFIi/F3TrM=</dsig:DigestValue>
+        <dsig:DigestValue>OpY9AQLjvNPfwx2YHXvHJYQYSyMhqwIQmOlPA+e7s5k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>69AHww/iOguc1baZfXLY9gu64uOyUCyymwgMkAeBw7k=</dsig:DigestValue>
+        <dsig:DigestValue>2SK2OXqepS7Uw7Ipfxa6ZFhBUXcrRT3HLQFQBu+aFfg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
