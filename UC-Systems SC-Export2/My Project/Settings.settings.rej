@@ -1,0 +1,25 @@
+diff a/UC-Systems SC-Export2/My Project/Settings.settings b/UC-Systems SC-Export2/My Project/Settings.settings	(rejected hunks)
+@@ -1,22 +0,0 @@
+-﻿<?xml version='1.0' encoding='utf-8'?>
+-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+-  <Profiles />
+-  <Settings>
+-    <Setting Name="SCconnect" Type="(Connection string)" Scope="Application">
+-      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+-&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+-  &lt;ConnectionString&gt;Data Source=DC-134 ;Initial Catalog=supportcenter;Persist Security Info=True;User ID=report;Password=report2013&lt;/ConnectionString&gt;
+-  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+-&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+-      <Value Profile="(Default)">Data Source=DC-134 ;Initial Catalog=supportcenter;Persist Security Info=True;User ID=report;Password=report2013</Value>
+-    </Setting>
+-    <Setting Name="Exactconnect" Type="(Connection string)" Scope="Application">
+-      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+-&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+-  &lt;ConnectionString&gt;Data Source=dc-133;Initial Catalog=100;Persist Security Info=True;User ID=report;Password=report2013&lt;/ConnectionString&gt;
+-  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+-&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+-      <Value Profile="(Default)">Data Source=dc-133;Initial Catalog=100;Persist Security Info=True;User ID=report;Password=report2013</Value>
+-    </Setting>
+-  </Settings>
+-</SettingsFile>
+\ No newline at end of file
