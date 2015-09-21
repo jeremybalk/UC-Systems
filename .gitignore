@@ -189,11 +189,11 @@ _Pvt_Extensions/
 ModelManifest.xml
 
 #Settings
-App.config
-App.config.rej
-MyProject/Settings.settings
-MyProject/Settings.settings.rej
-UC-Systems SC-Export2\App.config
-UC-Systems SC-Export2\App.config.rej
-UC-Systems SC-Export2\My Project\Settings.settings
-UC-Systems SC-Export2\My Project\Settings.settings.rej
+/App.config
+/App.config.rej
+/MyProject/Settings.settings
+/MyProject/Settings.settings.rej
+/UC-Systems SC-Export2\App.config
+/UC-Systems SC-Export2\App.config.rej
+/UC-Systems SC-Export2\My Project\Settings.settings
+/UC-Systems SC-Export2\My Project\Settings.settings.rej
